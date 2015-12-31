@@ -21,7 +21,6 @@
     UIBarButtonItem *rightItem2 = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemBookmarks target:self action:@selector(rightBarButtonItemClick)];
     UIBarButtonItem *rightItem3 = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemRefresh target:self action:@selector(rightBarButtonItemClick)];
     
-    
     self.navigationItem.leftBarButtonItem = leftItem;
     self.navigationItem.rightBarButtonItems = @[rightItem, rightItem2, rightItem3];
     self.navigationItem.rightMargin = 100;

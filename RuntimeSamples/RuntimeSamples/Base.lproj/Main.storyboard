@@ -28,7 +28,7 @@
         <!--BtnContentMode-->
         <scene sceneID="Q8S-hV-5w3">
             <objects>
-                <navigationController id="LUM-iW-eZi" sceneMemberID="viewController">
+                <navigationController id="LUM-iW-eZi" customClass="TempNavigationController" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="BtnContentMode" id="CcZ-dl-5wK"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="2RR-4a-kbI">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -64,7 +64,7 @@
         <!--TextViewPlaceholder-->
         <scene sceneID="WSj-3Q-Osu">
             <objects>
-                <navigationController id="FWq-jL-W8r" sceneMemberID="viewController">
+                <navigationController id="FWq-jL-W8r" customClass="TempNavigationController" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="TextViewPlaceholder" id="OcM-Ml-BUH"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="vWN-KL-KYo">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -100,7 +100,7 @@
         <!--NavigationItem-->
         <scene sceneID="2ol-it-DTc">
             <objects>
-                <navigationController id="JFV-ae-UBE" sceneMemberID="viewController">
+                <navigationController id="JFV-ae-UBE" customClass="TempNavigationController" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="NavigationItem" id="8Fm-aI-9z5"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="bZS-gt-qgK">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -133,11 +133,11 @@
             </objects>
             <point key="canvasLocation" x="539" y="1107"/>
         </scene>
-        <!--Item-->
+        <!--HiddenStatusBar-->
         <scene sceneID="elB-Ke-Adl">
             <objects>
-                <navigationController id="LV1-D9-Hhn" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="P5w-xB-s6T"/>
+                <navigationController id="LV1-D9-Hhn" customClass="TempNavigationController" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="HiddenStatusBar" id="P5w-xB-s6T"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="qnq-Fv-diL">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -150,10 +150,10 @@
             </objects>
             <point key="canvasLocation" x="-191" y="1771"/>
         </scene>
-        <!--View Controller-->
+        <!--Navigation Hidden Status Bar View Controller-->
         <scene sceneID="qce-8S-wzB">
             <objects>
-                <viewController id="eME-IV-0sM" sceneMemberID="viewController">
+                <viewController id="eME-IV-0sM" customClass="UINavigationHiddenStatusBarViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="C9C-7W-mRW"/>
                         <viewControllerLayoutGuide type="bottom" id="2mW-Di-QCs"/>

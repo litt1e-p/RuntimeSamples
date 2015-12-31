@@ -18,6 +18,11 @@
 		3C1C6C641C34FCE300A7B21E /* UITextViewPlaceholderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1C6C631C34FCE300A7B21E /* UITextViewPlaceholderViewController.m */; };
 		3C1C6C681C3503E000A7B21E /* UINavigationItem+Margin.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1C6C671C3503E000A7B21E /* UINavigationItem+Margin.m */; };
 		3C1C6C6B1C35080000A7B21E /* UINavigationItemMarginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1C6C6A1C35080000A7B21E /* UINavigationItemMarginViewController.m */; };
+		3C1C6C6F1C3514AF00A7B21E /* UINavigationBar+HiddenStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1C6C6E1C3514AF00A7B21E /* UINavigationBar+HiddenStatusBar.m */; };
+		3C1C6C721C35159500A7B21E /* UINavigationHiddenStatusBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1C6C711C35159500A7B21E /* UINavigationHiddenStatusBarViewController.m */; };
+		3C1C6C751C3516A200A7B21E /* UIButton+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1C6C741C3516A200A7B21E /* UIButton+Block.m */; };
+		3C1C6C781C3516EC00A7B21E /* TempPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1C6C771C3516EC00A7B21E /* TempPushViewController.m */; };
+		3C1C6C7B1C351FAA00A7B21E /* TempNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1C6C7A1C351FAA00A7B21E /* TempNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +46,16 @@
 		3C1C6C671C3503E000A7B21E /* UINavigationItem+Margin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+Margin.m"; sourceTree = "<group>"; };
 		3C1C6C691C35080000A7B21E /* UINavigationItemMarginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UINavigationItemMarginViewController.h; sourceTree = "<group>"; };
 		3C1C6C6A1C35080000A7B21E /* UINavigationItemMarginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UINavigationItemMarginViewController.m; sourceTree = "<group>"; };
+		3C1C6C6D1C3514AF00A7B21E /* UINavigationBar+HiddenStatusBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+HiddenStatusBar.h"; sourceTree = "<group>"; };
+		3C1C6C6E1C3514AF00A7B21E /* UINavigationBar+HiddenStatusBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+HiddenStatusBar.m"; sourceTree = "<group>"; };
+		3C1C6C701C35159500A7B21E /* UINavigationHiddenStatusBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UINavigationHiddenStatusBarViewController.h; sourceTree = "<group>"; };
+		3C1C6C711C35159500A7B21E /* UINavigationHiddenStatusBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UINavigationHiddenStatusBarViewController.m; sourceTree = "<group>"; };
+		3C1C6C731C3516A200A7B21E /* UIButton+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Block.h"; sourceTree = "<group>"; };
+		3C1C6C741C3516A200A7B21E /* UIButton+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Block.m"; sourceTree = "<group>"; };
+		3C1C6C761C3516EC00A7B21E /* TempPushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TempPushViewController.h; sourceTree = "<group>"; };
+		3C1C6C771C3516EC00A7B21E /* TempPushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TempPushViewController.m; sourceTree = "<group>"; };
+		3C1C6C791C351FAA00A7B21E /* TempNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TempNavigationController.h; sourceTree = "<group>"; };
+		3C1C6C7A1C351FAA00A7B21E /* TempNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TempNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +88,11 @@
 		3C04A5EC1C34BF15009C015B /* RuntimeSamples */ = {
 			isa = PBXGroup;
 			children = (
+				3C1C6C731C3516A200A7B21E /* UIButton+Block.h */,
+				3C1C6C741C3516A200A7B21E /* UIButton+Block.m */,
+				3C1C6C791C351FAA00A7B21E /* TempNavigationController.h */,
+				3C1C6C7A1C351FAA00A7B21E /* TempNavigationController.m */,
+				3C1C6C6C1C35148600A7B21E /* UINavigatinBar+HiddenStatusBar */,
 				3C1C6C651C3503B900A7B21E /* UINavigationItem+Margin */,
 				3C1C6C5E1C34E1B400A7B21E /* UITextView+placeholder */,
 				3C04A6041C34C0B5009C015B /* UIButton+BackgroundContentMode */,
@@ -126,6 +146,19 @@
 				3C1C6C6A1C35080000A7B21E /* UINavigationItemMarginViewController.m */,
 			);
 			name = "UINavigationItem+Margin";
+			sourceTree = "<group>";
+		};
+		3C1C6C6C1C35148600A7B21E /* UINavigatinBar+HiddenStatusBar */ = {
+			isa = PBXGroup;
+			children = (
+				3C1C6C6D1C3514AF00A7B21E /* UINavigationBar+HiddenStatusBar.h */,
+				3C1C6C6E1C3514AF00A7B21E /* UINavigationBar+HiddenStatusBar.m */,
+				3C1C6C701C35159500A7B21E /* UINavigationHiddenStatusBarViewController.h */,
+				3C1C6C711C35159500A7B21E /* UINavigationHiddenStatusBarViewController.m */,
+				3C1C6C761C3516EC00A7B21E /* TempPushViewController.h */,
+				3C1C6C771C3516EC00A7B21E /* TempPushViewController.m */,
+			);
+			name = "UINavigatinBar+HiddenStatusBar";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,13 +231,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C1C6C7B1C351FAA00A7B21E /* TempNavigationController.m in Sources */,
+				3C1C6C781C3516EC00A7B21E /* TempPushViewController.m in Sources */,
 				3C1C6C641C34FCE300A7B21E /* UITextViewPlaceholderViewController.m in Sources */,
 				3C04A60A1C34C11F009C015B /* UIButton+BackgroundContentMode.m in Sources */,
 				3C04A5F21C34BF15009C015B /* AppDelegate.m in Sources */,
 				3C1C6C6B1C35080000A7B21E /* UINavigationItemMarginViewController.m in Sources */,
+				3C1C6C6F1C3514AF00A7B21E /* UINavigationBar+HiddenStatusBar.m in Sources */,
 				3C1C6C681C3503E000A7B21E /* UINavigationItem+Margin.m in Sources */,
 				3C04A5EF1C34BF15009C015B /* main.m in Sources */,
+				3C1C6C751C3516A200A7B21E /* UIButton+Block.m in Sources */,
 				3C1C6C611C34E1DA00A7B21E /* UITextView+Placeholder.m in Sources */,
+				3C1C6C721C35159500A7B21E /* UINavigationHiddenStatusBarViewController.m in Sources */,
 				3C04A6071C34C10A009C015B /* UIButtonBackgroundContentModeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

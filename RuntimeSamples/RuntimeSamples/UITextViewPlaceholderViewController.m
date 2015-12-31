@@ -15,7 +15,7 @@
 {
     [super viewDidLoad];
     self.title = @"TextViewPlaceholder";
-    self.edgesForExtendedLayout = UIRectEdgeNone;
+    self.edgesForExtendedLayout = UIRectEdgeBottom;
     
     UITextView *tv       = [[UITextView alloc] initWithFrame:CGRectMake(0, 100, self.view.bounds.size.width, 200)];
     tv.backgroundColor   = [UIColor groupTableViewBackgroundColor];
