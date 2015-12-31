@@ -97,11 +97,11 @@
             </objects>
             <point key="canvasLocation" x="539" y="429"/>
         </scene>
-        <!--Item-->
+        <!--NavigationItem-->
         <scene sceneID="2ol-it-DTc">
             <objects>
                 <navigationController id="JFV-ae-UBE" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="8Fm-aI-9z5"/>
+                    <tabBarItem key="tabBarItem" title="NavigationItem" id="8Fm-aI-9z5"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="bZS-gt-qgK">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -114,10 +114,10 @@
             </objects>
             <point key="canvasLocation" x="-191" y="1107"/>
         </scene>
-        <!--View Controller-->
+        <!--Navigation Item Margin View Controller-->
         <scene sceneID="3PH-6m-Tsf">
             <objects>
-                <viewController id="4Ua-ep-ezK" sceneMemberID="viewController">
+                <viewController id="4Ua-ep-ezK" customClass="UINavigationItemMarginViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="fjD-e3-55I"/>
                         <viewControllerLayoutGuide type="bottom" id="gZ0-Cy-SqD"/>

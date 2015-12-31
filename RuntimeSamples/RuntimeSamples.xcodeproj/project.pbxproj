@@ -16,6 +16,8 @@
 		3C04A60A1C34C11F009C015B /* UIButton+BackgroundContentMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C04A6091C34C11F009C015B /* UIButton+BackgroundContentMode.m */; };
 		3C1C6C611C34E1DA00A7B21E /* UITextView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1C6C601C34E1DA00A7B21E /* UITextView+Placeholder.m */; };
 		3C1C6C641C34FCE300A7B21E /* UITextViewPlaceholderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1C6C631C34FCE300A7B21E /* UITextViewPlaceholderViewController.m */; };
+		3C1C6C681C3503E000A7B21E /* UINavigationItem+Margin.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1C6C671C3503E000A7B21E /* UINavigationItem+Margin.m */; };
+		3C1C6C6B1C35080000A7B21E /* UINavigationItemMarginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1C6C6A1C35080000A7B21E /* UINavigationItemMarginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,10 @@
 		3C1C6C601C34E1DA00A7B21E /* UITextView+Placeholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Placeholder.m"; sourceTree = "<group>"; };
 		3C1C6C621C34FCE300A7B21E /* UITextViewPlaceholderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITextViewPlaceholderViewController.h; sourceTree = "<group>"; };
 		3C1C6C631C34FCE300A7B21E /* UITextViewPlaceholderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITextViewPlaceholderViewController.m; sourceTree = "<group>"; };
+		3C1C6C661C3503E000A7B21E /* UINavigationItem+Margin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+Margin.h"; sourceTree = "<group>"; };
+		3C1C6C671C3503E000A7B21E /* UINavigationItem+Margin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+Margin.m"; sourceTree = "<group>"; };
+		3C1C6C691C35080000A7B21E /* UINavigationItemMarginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UINavigationItemMarginViewController.h; sourceTree = "<group>"; };
+		3C1C6C6A1C35080000A7B21E /* UINavigationItemMarginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UINavigationItemMarginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,7 @@
 		3C04A5EC1C34BF15009C015B /* RuntimeSamples */ = {
 			isa = PBXGroup;
 			children = (
+				3C1C6C651C3503B900A7B21E /* UINavigationItem+Margin */,
 				3C1C6C5E1C34E1B400A7B21E /* UITextView+placeholder */,
 				3C04A6041C34C0B5009C015B /* UIButton+BackgroundContentMode */,
 				3C04A5ED1C34BF15009C015B /* Supporting Files */,
@@ -108,6 +115,17 @@
 				3C1C6C631C34FCE300A7B21E /* UITextViewPlaceholderViewController.m */,
 			);
 			name = "UITextView+placeholder";
+			sourceTree = "<group>";
+		};
+		3C1C6C651C3503B900A7B21E /* UINavigationItem+Margin */ = {
+			isa = PBXGroup;
+			children = (
+				3C1C6C661C3503E000A7B21E /* UINavigationItem+Margin.h */,
+				3C1C6C671C3503E000A7B21E /* UINavigationItem+Margin.m */,
+				3C1C6C691C35080000A7B21E /* UINavigationItemMarginViewController.h */,
+				3C1C6C6A1C35080000A7B21E /* UINavigationItemMarginViewController.m */,
+			);
+			name = "UINavigationItem+Margin";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +201,8 @@
 				3C1C6C641C34FCE300A7B21E /* UITextViewPlaceholderViewController.m in Sources */,
 				3C04A60A1C34C11F009C015B /* UIButton+BackgroundContentMode.m in Sources */,
 				3C04A5F21C34BF15009C015B /* AppDelegate.m in Sources */,
+				3C1C6C6B1C35080000A7B21E /* UINavigationItemMarginViewController.m in Sources */,
+				3C1C6C681C3503E000A7B21E /* UINavigationItem+Margin.m in Sources */,
 				3C04A5EF1C34BF15009C015B /* main.m in Sources */,
 				3C1C6C611C34E1DA00A7B21E /* UITextView+Placeholder.m in Sources */,
 				3C04A6071C34C10A009C015B /* UIButtonBackgroundContentModeViewController.m in Sources */,
