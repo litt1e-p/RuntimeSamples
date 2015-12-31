@@ -22,8 +22,8 @@
 + (void)swizzle:(SEL)selector
 {
     NSString *name = [NSString stringWithFormat:@"swizzled_%@", NSStringFromSelector(selector)];
-    Method m1 = class_getInstanceMethod(self, selector);
-    Method m2 = class_getInstanceMethod(self, NSSelectorFromString(name));
+    Method m1 = class_getInstanceMethod(self.class, selector);
+    Method m2 = class_getInstanceMethod(self.class, NSSelectorFromString(name));
     method_exchangeImplementations(m1, m2);
 }
 

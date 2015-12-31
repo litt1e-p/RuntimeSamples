@@ -20,18 +20,18 @@
     [super viewDidLoad];
     self.title = @"BtnContentMode";
     
-    CGRect btnFrame = CGRectMake(self.view.frame.size.width * 0.5 - 100, 200, 100, 50);
-    UIButton *normalBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-    normalBtn.frame = btnFrame;
+    CGRect btnFrame             = CGRectMake(self.view.frame.size.width * 0.5 - 50, 200, 100, 50);
+    UIButton *normalBtn         = [UIButton buttonWithType:UIButtonTypeCustom];
+    normalBtn.frame             = btnFrame;
     normalBtn.layer.borderColor = [UIColor redColor].CGColor;
     normalBtn.layer.borderWidth = 1.f;
     [normalBtn setBackgroundImage:[UIImage imageNamed:@"delete"] forState:UIControlStateNormal];
 //    normalBtn.backgroundImageView.contentMode = UIViewContentModeScaleAspectFit;
     [self.view addSubview:normalBtn];
     
-    CGRect contenModeBtnFrame = CGRectMake(self.view.frame.size.width * 0.5 - 100, 300, 100, 50);
-    UIButton *contenModeBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-    contenModeBtn.frame = contenModeBtnFrame;
+    CGRect contenModeBtnFrame       = CGRectMake(self.view.frame.size.width * 0.5 - 50, 300, 100, 50);
+    UIButton *contenModeBtn         = [UIButton buttonWithType:UIButtonTypeCustom];
+    contenModeBtn.frame             = contenModeBtnFrame;
     contenModeBtn.layer.borderColor = [UIColor redColor].CGColor;
     contenModeBtn.layer.borderWidth = 1.f;
     [contenModeBtn setBackgroundImage:[UIImage imageNamed:@"delete"] forState:UIControlStateNormal];
