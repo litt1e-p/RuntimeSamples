@@ -1,2 +1,2 @@
 # RuntimeSamples
-collection of some runtime usage samples
+a collection of some runtime usage samples
