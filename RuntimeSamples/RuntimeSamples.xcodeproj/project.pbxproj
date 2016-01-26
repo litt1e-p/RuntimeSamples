@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		043E9ABD1C57126000743271 /* UINavigationItem+customBack.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E9ABC1C57126000743271 /* UINavigationItem+customBack.m */; };
 		3C04A5EF1C34BF15009C015B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C04A5EE1C34BF15009C015B /* main.m */; };
 		3C04A5F21C34BF15009C015B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C04A5F11C34BF15009C015B /* AppDelegate.m */; };
 		3C04A5F81C34BF15009C015B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C04A5F61C34BF15009C015B /* Main.storyboard */; };
@@ -26,6 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		043E9ABB1C57126000743271 /* UINavigationItem+customBack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+customBack.h"; sourceTree = "<group>"; };
+		043E9ABC1C57126000743271 /* UINavigationItem+customBack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+customBack.m"; sourceTree = "<group>"; };
 		3C04A5EA1C34BF15009C015B /* RuntimeSamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RuntimeSamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C04A5EE1C34BF15009C015B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3C04A5F01C34BF15009C015B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -69,6 +72,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		043E9ABA1C57120F00743271 /* UINavigationItem+customBack */ = {
+			isa = PBXGroup;
+			children = (
+				043E9ABB1C57126000743271 /* UINavigationItem+customBack.h */,
+				043E9ABC1C57126000743271 /* UINavigationItem+customBack.m */,
+			);
+			name = "UINavigationItem+customBack";
+			sourceTree = "<group>";
+		};
 		3C04A5E11C34BF15009C015B = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +104,7 @@
 				3C1C6C741C3516A200A7B21E /* UIButton+Block.m */,
 				3C1C6C791C351FAA00A7B21E /* TempNavigationController.h */,
 				3C1C6C7A1C351FAA00A7B21E /* TempNavigationController.m */,
+				043E9ABA1C57120F00743271 /* UINavigationItem+customBack */,
 				3C1C6C6C1C35148600A7B21E /* UINavigatinBar+HiddenStatusBar */,
 				3C1C6C651C3503B900A7B21E /* UINavigationItem+Margin */,
 				3C1C6C5E1C34E1B400A7B21E /* UITextView+placeholder */,
@@ -233,6 +246,7 @@
 			files = (
 				3C1C6C7B1C351FAA00A7B21E /* TempNavigationController.m in Sources */,
 				3C1C6C781C3516EC00A7B21E /* TempPushViewController.m in Sources */,
+				043E9ABD1C57126000743271 /* UINavigationItem+customBack.m in Sources */,
 				3C1C6C641C34FCE300A7B21E /* UITextViewPlaceholderViewController.m in Sources */,
 				3C04A60A1C34C11F009C015B /* UIButton+BackgroundContentMode.m in Sources */,
 				3C04A5F21C34BF15009C015B /* AppDelegate.m in Sources */,
