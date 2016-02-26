@@ -3,7 +3,7 @@
 //  emb
 //
 //  Created by litt1e-p on 15/12/31.
-//  Copyright (c) 2015年 youkastation. All rights reserved.
+//  Copyright (c) 2015年 litt1e-p. All rights reserved.
 //
 
 #import <objc/runtime.h>
